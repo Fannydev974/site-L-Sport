@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+
+    <meta name="description"
+        content="Web site de L'Sport coaching pour femme musulmane, remise en forme, perte de poid, préparation compétition">
+
+    <!--Google Fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!--CDN-->
+
+    <!-- CSS + JS + Frameworks liens CDN plutôt que de télécharger et héberger les fichiers localement, ce qui peut améliorer la performance du site et simplifier la gestion des dépendances.-->
+
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script><!--CDN-->
+
+    <script src="./assets/maugallery.js" defer></script>
+
+    <script src="./assets/scripts.js" defer></script>
+    <!--defer Évite de bloquer le chargement de la page pendant l’exécution des scripts-->
+
+    <!-- *** Twitter, FaceBook, Instagram ***  -->
+
+    <!-- Twitter Card data -->
+
+    <meta name="twitter:card" content="summary_image">
+
+    <meta name="twitter:site" content="">
+
+    <meta name="twitter:title"
+        content="L'Sport coach sportive pour femme Lyon 8ème, accompagnement personnalisé en réel où a distance ">
+
+    <meta name="twitter:description" content="Mettre le slogan">
+
+    <meta name="twitter:creator" content="JSJ Développement">
+
+    <meta name="twitter:image:src" content="https://github.com/Fannydev974/">
+
+    <!--Twitter card et open Graph pour améliorer l'apparence des liens partagés sur les réseaux sociaux-->
+
+    <!-- Open Graph data pour Facebook - Instagram-->
+    <meta property="og:title"
+        content="L'Sport coach sportive pour femme Lyon 8ème, accompagnement personnalisé en réel où a distance ">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:locale" content="fr_FR"><!--localisation de la page comme étant en France-->
+
+    <meta property="author" content="JSJ Développement">
+
+    <meta property="og:url" content="url du site">
+
+    <meta property="og:image" content="Mettre lien image de fond">
+
+    <meta property="og:description" content="L'Sport avec slogan">
+
+    <meta property="og:site_name"
+        content="L'Sport coach sportive pour femme Lyon 8ème, accompagnement personnalisé en réel où a distance">
+    <!--indique la localisation et le type de services de L'Sport-->
+
+    <meta name="instagram:title"
+        content="L'Sport coach sportive pour femme Lyon 8ème, accompagnement personnalisé en réel où a distance">
+
+    <meta name="instagram:site" content="@photo de l'sport">
+
+    <meta name="instagram:caption"
+        content="L'Sport coach sportive pour femme Lyon 8ème, accompagnement personnalisé en réel où a distance. Visitez mon site : https://">
+
+    <!--Schema.org pour les infos spécifique pour les moteurs de recherche-->
+    <script type="application/ld+json">
+			      {
+			        "@context": "https://schema.org",
+			        "@type": "LocalBusiness",
+			        "name": "L'Sport coach sportive pour femme",
+			        "image": "https://lien image",
+			
+			        "description": "coach sportive pour femme",
+			
+			        "address": {
+			          "@type": "PostalAddress",
+			          "streetAddress": "Rue du parc",
+			          "addressLocality": "Lyon",
+			          "postalCode": "69000",
+			          "addressCountry": "FR"
+			        },
+			        "telephone": "077777777",
+			        "priceRange": "50€ 400€",
+			        "url": "https://lien du site",
+			        "contactPoint": {
+			          "@type": "ContactPoint",
+			          "telephone": "+7555555555"
+			        },
+			        "openingHoursSpecification": [
+			          {
+			            "@type": "OpeningHoursSpecification",
+			            "dayOfWeek": [
+			              "Monday",
+			              "Tuesday",
+			              "Wednesday",
+			              "Thursday",
+			              "Friday"
+			            ],
+			            "opens": "10:00",
+			            "closes": "19:00"
+			          }
+			        ]
+			      }
+			    </script>
+
+
+
+
+    <!--Rich Snippet Les balises meta Twitter Card et Open Graph sont spécifiées, ce qui permet aux plateformes telles que Twitter, Facebook et Instagram d'afficher des extraits enrichis lorsque le lien vers la page est partagé.-->
+    <title>L'Sport coaching pour femme</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="top-header">
+            <h1 class="name">L'Sport coaching pour femme</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#Specialites">Spécialités</a></li>
+                    <li><a href="#Lieu">Lieux de coaching</a></li>
+                    <li><a href="#Tarifs">Offres et Tarifs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#carte cadeaux">Carte cadeaux</a></li>
+                    <li><a class="social-link" href="https://www.instagram.com/L'Sport.coaching/?hl=fr" target="_blank">
+                            <img src="assets/images/instagram.png" alt="instagram"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <img srcset="
+					                ./assets/images/slider/250px/assets/images/fond header.jpg  250w,
+					                ./assets/images/slider/400px/assets/images/fond header.jpg  400w,
+					                ./assets/images/slider/700px/assets/images/fond header.jpg  700w,
+					                ./assets/images/slider/900px/assets/images/fond header.jpg  900w,
+					                ./assets/images/slider/1200px/assets/images/fond header.jpg 1200w,
+					                ./assets/images/slider/1920px/assets/images/fond header.jpg 1920w
+					              " sizes="100vw" src="assets/images/slider/900px/fond header.jpg" class="d-block w-100"
+                        alt="Photo zen rose" width="1921" height="888" style="max-width: 100%; height: auto">
+
+                </div>
+
+                <div class="carousel-item">
+                    <img srcset="
+					                ./assets/images/slider/250px/assets/images/slider/900px/image defil.jpg   250w,
+					                ./assets/images/slider/400px/assets/images/slider/900px/image defil.jpg   400w,
+					                ./assets/images/slider/400px/assets/images/slider/900px/image defil.jpg   700w,
+					                ./assets/images/slider/900px/assets/images/slider/900px/image defil.jpg  900w,
+					                ./assets/images/slider/1200px/assets/images/slider/900px/image defil.jpg 1200w,
+					                ./assets/images/slider/1920px/assets/images/slider/900px/image defil.jpg 1920w
+					              " sizes="100vw" src="assets/images/slider/900px/image defil.jpg" class="d-block w-100"
+                        alt="Photo d'un sport" width="1921" height="888" style="max-width: 100%; height: auto">
+
+                </div>
+
+                <div class="carousel-item">
+                    <img srcset="
+										./assets/images/slider/250px/.jpg  250w,
+										./assets/images/slider/400px/.jpg  400w,
+										./assets/images/slider/700px/.jpg  700w,
+										./assets/images/slider/900px/.jpg  900w,
+										./assets/images/slider/1200px/.jpg 1200w,
+										./assets/images/slider/1920px/.jpg 1920w
+										" sizes="100vw" src="assets/images/slider/900px/edward-cisneros-3_h6-1NPDGw-unsplash.jpg"
+                        class="d-block w-100" alt="Photo d'un article 3" width="1921" height="888"
+                        style="max-width: 100%; height: auto">
+
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div id="about">
+            <div class="picture left">
+                <img src="./assets/images/" alt="photo zen">
+            </div>
+            <div id="about-me">
+                <h2 class="about-me__title">A propos de moi</h2>
+                <h3 class="about-me__introduction" id="ariaDescriptionL'sport">
+                </h3>
+
+                <p></p>
+            </div>
+        </div>
+        <div id="gallery-services">
+            <div class="section">
+                <h2 class="title">Vous vous demandez</h2>
+                <div class="quote">
+                    <figure>
+                        <blockquote>
+                            <p class="quote__text">TEXTE 2</p>
+                        </blockquote>
+                    </figure>
+                </div>
+            </div>
+            <div class="section">
+                <h2 class="title">Déroulement d'une séance</h2>
+                <div class="quote">
+                    <figure>
+                        <blockquote>
+                            <p class="quote__text">1: Echauffement<br>2: Corps de la séance<br>3: Etirement/Retour au
+                                calme<br></p>
+                        </blockquote>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="title">Offres et Tarifs</h2>
+        <div class="service__price">
+            <h3>Coaching individuel</h3>
+            <span>Matériel, déplacement inclus</span>
+        </div>
+
+        </div>
+        <div class="service">
+            <div class="service__description">
+                <h3>Coaching collectif</h3>
+                <p>Vous souhaitez profiter de séances a plusieurs et économiser sur vos séances</p>
+            </div>
+            <div class="service__price">
+                <h4>50€/séances</h4>
+                <span>par personnes</span>
+            </div>
+        </div>
+        <div class="service">
+            <div class="service__description">
+                <h3>Coaching à distance</h3>
+                <p>par whatsApp et visio </p>
+            </div>
+            <div class="service__price">
+                <h4>400€ le mois</h4>
+                <span>prix dégressifs selon la durée du coaching</span>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- Rectangle noir avec 6 titres et icônes -->
+        <div class="features">
+            <div class="feature">
+                <i class="fa-solid fa-baby"></i>
+                <h4>Grossesse<br>Texte<br></h4>
+            </div>
+            <div class="feature">
+                <i class="fa-solid fa-baby-carriage"></i>
+                <h4>Jeune maman<br>Texte<br></h4>
+            </div>
+            <div class="feature">
+                <i class="fa-solid fa-heart-pulse"></i>
+                <h4>Cardio<br>Texte<br></h4>
+            </div>
+            <div class="feature">
+                <i class="fa-solid fa-battery-full"></i>
+                <h4>Bien-être<br>Texte<br></br>
+                </h4>
+            </div>
+            <div class="feature">
+                <i class="fa-solid fa-weight-hanging"></i>
+                <h4>Mobilité<br>Texte<br></h4>
+            </div>
+            <div class="feature">
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>Entre femme/Pour les femmes<br>Texte<br></h4>
+            </div>
+        </div>
+
+
+
+        <div id="contact">
+            <div class="container">
+                <div class="form-container">
+                    <h3>Une question ? Une demande de devis ?</h3>
+                    <p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
+                    <form method="post" id="form">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom">
+
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email">
+
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10">
+					</textarea>
+                        <label for="submit">Envoyer</label>
+                        <input type="submit" name="submit" id="submit" value="Envoyer">
+                    </form>
+                </div>
+                <div class="picture right">
+                    <img src="assets/images/logo.webp" alt="logo L'Sport">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <span>L'sport coaching pour femme</span><br>
+        <span>69000</span>
+        <span>Lyon</span>
+
+        <span>Tél: 05 89 85 85 85.</span>
+        <span>Du lundi au vendredi de 10h à 19h</span>
+    </footer>
+
+</body>
+
+</html>
