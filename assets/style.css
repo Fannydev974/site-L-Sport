@@ -47,7 +47,7 @@ body {
 
 #about {
     display: flex;
-    background-color: #F6D2B8;
+    background-color: #d69898;
     padding-inline: 100px;
     padding-block: 100px;
     position: relative;
@@ -55,7 +55,7 @@ body {
 
 .picture.left::before {
     content: ' ';
-    background-color: #c06b86;
+    background-color: #e93556;
     width: 374px;
     height: 329px;
     position: absolute;
